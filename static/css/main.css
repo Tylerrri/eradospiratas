@@ -5,7 +5,7 @@ margin: 0 auto;
 
 }
 ul {
-    padding: 0px!important;
+padding: 0px!important;
 }
 .menu-principal {
 width: 100%;
@@ -66,12 +66,11 @@ width: 70%;
 float: left;
 }
 .busca {
-text-align: center;
-width: 30%;
-float: right;
+    width: 30%;
+    float: left;
 }
 .busca input {
-background-image: url('../img/busca.png');
+background-image: url('/static/img/busca.png');
 background-repeat: no-repeat;
 background-position: 95%;
 border: 1px solid #d6d6d6;
@@ -94,8 +93,8 @@ height: 51px;
 z-index: 9;
 background-color: transparent;
 position: absolute;
-background-image: url('../img/arrows.png');
-top: 35%;
+background-image: url('/static/img/arrows.png');
+top: 55%;
 left: 14%;
 }
 button.slick-next {
@@ -106,8 +105,8 @@ height: 51px;
 z-index: 9;
 background-color: transparent;
 position: absolute;
-background-image: url('../img/arrows2.png');
-top: 35%;
+background-image: url('/static/img/arrows2.png');
+top: 55%;
 right: 14%;
 }
 
@@ -130,11 +129,10 @@ overflow: hidden;
 
 }
 .slick-dots {
-margin: 0 auto;
-width: 50%;
-position: absolute;                                         
-left: 50%;
-top: 600px;
+margin-top: -30px;
+width: 55%;
+position: relative;  
+float: right;  
 }
 li.slick-active button {
     background: #00bac6;
